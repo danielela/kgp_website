@@ -38,7 +38,7 @@ watch the results in the right.
 
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
+kgp_website uses a number of open source projects to work properly:
 
 - [AngularJS] - HTML enhanced for web apps!
 - [Ace Editor] - awesome web-based text editor
@@ -51,12 +51,12 @@ Dillinger uses a number of open source projects to work properly:
 to Markdown converter
 - [jQuery] - duh
 
-And of course Dillinger itself is open source with a [public repository][dill]
+And of course kgp_website itself is open source with a [public repository][dill]
  on GitHub.
 
 ## Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
+kgp_website requires [Node.js](https://nodejs.org/) v10+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
@@ -75,7 +75,7 @@ NODE_ENV=production node app
 
 ## Plugins
 
-Dillinger is currently extended with the following plugins.
+kgp_website is currently extended with the following plugins.
 Instructions on how to use them in your own application are linked below.
 
 | Plugin | README |
@@ -91,7 +91,7 @@ Instructions on how to use them in your own application are linked below.
 
 Want to contribute? Great!
 
-Dillinger uses Gulp + Webpack for fast developing.
+kgp_website uses Gulp + Webpack for fast developing.
 Make a change in your file and instantaneously see your updates!
 
 Open your favorite Terminal and run these commands.
@@ -130,7 +130,7 @@ gulp build dist --prod
 
 ## Docker
 
-Dillinger is very easy to install and deploy in a Docker container.
+kgp_website is very easy to install and deploy in a Docker container.
 
 By default, the Docker will expose port 8080, so change this within the
 Dockerfile if necessary. When ready, simply use the Dockerfile to
@@ -143,7 +143,7 @@ docker build -t <youruser>/dillinger:${package.json.version} .
 
 This will create the dillinger image and pull in the necessary dependencies.
 Be sure to swap out `${package.json.version}` with the actual
-version of Dillinger.
+version of kgp_website.
 
 Once done, run the Docker image and map the port to whatever you wish on
 your host. In this example, we simply map port 8000 of the host to
